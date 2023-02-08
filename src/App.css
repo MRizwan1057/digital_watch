@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  overflow-x: hidden;
+  position: relative;
+  min-width: 100vw;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.time {
+  font-size: 2.2rem;
+  letter-spacing: 0.5rem;
+  background-color: black;
+  color: #f0dace;
+  padding: 0.5rem;
+  border: 5px solid rgb(198, 133, 3);
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.date {
+  font-size: 2.2rem;
+  letter-spacing: 0.5rem;
+  padding: 0.5rem;
+  background-color: rgb(41, 29, 29);
+  color: #f0dace;
+  border: 5px solid rgb(110, 2, 2);
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+}
+.day {
+  font-size: 2.2rem;
+  letter-spacing: 0.5rem;
+  padding: 0.5rem;
+  background-color: rgb(65, 41, 41);
+  color: #f0dace;
+  border: 5px solid rgb(198, 133, 3);
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+}
